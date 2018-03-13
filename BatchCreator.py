@@ -17,13 +17,8 @@
 #Label: List of target variables
 
 #Import dependencies
-#from src.setup.config import db
-#from itertools import groupby
 import pandas as pd
-#from collections import OrderedDict
-#from datetime import date
 import numpy as np
-#import pyodbc
 
 def GetBatches(IncsvFiles,InVariableNames,OutcsvFiles,OutVariableNames,BatchSize):
     counter = 0
