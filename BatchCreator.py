@@ -1,4 +1,5 @@
 #GetBatches function
+#Helper function that extracts columns from csv files and returns them in form of batches.
 #Returns a list of batches of size batch_size with parameters of choice from .csv files
 #in form of numpy arrays. The list has shape [numBatches,BatchSize,NumParameters] while
 #NumBatches = minLen(inputFiles)/BatchSize. It returns two of those lists, one for input
